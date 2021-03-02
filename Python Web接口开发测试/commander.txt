@@ -1,0 +1,13 @@
+﻿数据同步
+python manage.py migrate
+进行数据库迁移：
+python manage.py makemigrations sign
+运行服务器
+python manage.py runserver
+
+创建超级管理账户
+Admin 后台超级管理员账号（admin/admin123456）也需要重新创建。
+python manage.py createsuperuser
+
+执行测试命令
+python manage.py test

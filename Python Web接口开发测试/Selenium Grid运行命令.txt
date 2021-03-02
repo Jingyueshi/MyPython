@@ -1,0 +1,10 @@
+启动selenium server
+java -jar selenium-server-standalone-3.141.59.jar
+
+启动一个hub节点
+
+java -jar selenium-server-standalone-3.141.59.jar -role hub 
+
+启动一个node节点
+
+java -jar selenium-server-standalone-3.141.59.jar -role node -port 5555 -hub http://127.0.0.1:4444/grid/register
